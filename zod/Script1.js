@@ -1,4 +1,4 @@
-var a = prompt('Write first date:', "year-month-day");
+var a = prompt('Write your birthday:', "year-month-day");
 var date = new Date(a);
 var ariesS = new Date(date.getFullYear(), 2, 21),
 ariesE = new Date(date.getFullYear(), 3, 20),
